@@ -1,7 +1,7 @@
-I"<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
+I"<h1 id="web应用软件开发实训---第二次作业---开发一个静态网站">WEB应用软件开发实训 - 第二次作业 - 开发一个静态网站</h1>
 
-<p><a href="http://127.0.0.1:4000/">http://127.0.0.1:4000/</a>，
-<a href="https://morningtune.github.io/">https://morningtune.github.io/</a></p>
+<p><a href="https://morningtune.github.io/">https://morningtune.github.io/</a>，
+<a href="https://github.com/morningtune/morningtune.github.io">https://github.com/morningtune/morningtune.github.io</a></p>
 
 <h2 id="一网站目录结构">一、网站目录结构</h2>
 
@@ -51,5 +51,11 @@
 
 <h2 id="1git-push时出现问题-fatal-no-configured-push-destination-either-specify-the-url-from-the-command-line-or-co--导致无法push到github上解决办法因为第一次push需要网址依次输入命令-----git-add-all--或者使用-git-add-所得的文件--git-add-filejs对用指定文件------git-commit--m-提交信息---------git-remote-add-origin-远程仓库url--------git-push--u-origin-origin对应远程分支名----这样之后push就只需要-git-add-all---git-add-所得的文件--git-add-filejs对用指定文件------git-commit--m-信息-----git-push-即可">1、git push时出现问题 fatal: No configured push destination. Either specify the URL from the command-line or co  导致无法push到github上。解决办法：因为第一次push需要网址，依次输入命令     $git add –all  或者使用 git add .(所得的文件) | git add file.js(对用指定文件)      $git commit -m “提交信息”         $git remote add origin ‘远程仓库url’        $git push -u origin origin(对应远程分支名)    这样之后push就只需要：$ git add –all  | git add .(所得的文件) | git add file.js(对用指定文件)     $ git commit -m “信息”    $ git push 即可。</h2>
 
-<h2 id="2push成功但是打开网站却没有相应内容解决办法反复研究发现是因为github上创建了两个分支导致没有push到主分支上这是需要将两个branch合并到master分支上然后重新push一次即可">2、push成功，但是打开网站却没有相应内容。解决办法：反复研究发现是因为Github上创建了两个分支，导致没有push到主分支上。这是需要将两个branch合并到master分支上，然后重新push一次即可。</h2>
+<h2 id="2在github远程创建仓库后git-push出现错误-error-failed-to-push-some-refs-to-httpsgithubcomxxxxgit解决办法强制push本地仓库到远程--git-push--u-origin-master--f-">2、在github远程创建仓库后，git push出现错误 error: failed to push some refs to ‘https://github.com/xxxx.git’。解决办法：强制push本地仓库到远程 $ git push -u origin master -f 。</h2>
+
+<h2 id="3push成功但是打开网站却没有相应内容解决办法反复研究发现是因为github上创建了两个分支导致没有push到主分支上这是需要将两个branch合并到master分支上然后重新push一次即可">3、push成功，但是打开网站却没有相应内容。解决办法：反复研究发现是因为Github上创建了两个分支，导致没有push到主分支上。这是需要将两个branch合并到master分支上，然后重新push一次即可。</h2>
+
+<h2 id="4编写实验报告时本地图片在网页上无法显示解决办法通过图床-smms上传本地图片">4、编写实验报告时，本地图片在网页上无法显示。解决办法：通过图床 sm.ms上传本地图片。</h2>
+
+<h2 id="心得体会本次实验学习到了开发静态网站的方法以及-git-push-的相关操作同时以markdown编写实验报告">心得体会：本次实验学习到了开发静态网站的方法，以及 git push 的相关操作，同时以Markdown编写实验报告。</h2>
 :ET
