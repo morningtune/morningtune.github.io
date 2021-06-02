@@ -1,31 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>实验三报告</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    <nav>
-    
-      <a href="/" >Home</a>
-    
-      <a href="/about.html" >About</a>
-    
-      <a href="/blog.html" >Blog</a>
-    
-      <a href="/staff.html" >Staff</a>
-    
-  </nav>
-    <h1>实验三报告</h1>
-
-<p>
-  01 Jun 2021
-  
-  
-</p>
-
-<h1 id="web应用软件开发实训-第3次作业-git-使用">WEB应用软件开发实训-第3次作业-Git 使用</h1>
+I"�<h1 id="web应用软件开发实训-第3次作业-git-使用">WEB应用软件开发实训-第3次作业-Git 使用</h1>
 
 <p><a href="https://github.com/morningtune/learngit/">https://github.com/morningtune/learngit/</a></p>
 
@@ -134,6 +107,4 @@
 
 <h4 id="通过本次实验我对git这种目前世界上最先进的分布式版本控制系统有了一些初步的掌握git的功能强大命令繁琐但是只要牢牢掌握常用的十几种命令我们就能在一定程度上较好的使用git">通过本次实验，我对Git这种目前世界上最先进的分布式版本控制系统有了一些初步的掌握。Git的功能强大，命令繁琐，但是只要牢牢掌握常用的十几种命令，我们就能在一定程度上较好的使用Git。</h4>
 
-
-  </body>
-</html>
+:ET
